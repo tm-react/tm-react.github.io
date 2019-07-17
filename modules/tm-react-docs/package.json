@@ -18,10 +18,10 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
-    "docz-start": "docz dev --typescript --port=4444",
-    "docz-build": "docz build",
+    "start-doc": "docz dev --typescript --port=4444",
+    "build-doc": "docz build",
     "predeploy-gh": "yarn run build",
-    "deploy-gh": "gh-pages -d build"
+    "deploy-gh": "gh-pages -d build-doc"
   },
   "eslintConfig": {
     "extends": "react-app"

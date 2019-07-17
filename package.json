@@ -14,8 +14,8 @@
     "start": "lerna run start --stream",
     "predeploy-gh": "lerna run predeploy-gh --stream",
     "deploy-gh": "lerna run deploy-gh --stream",
-    "docz-start": "lerna run docz-start --stream",
-    "docz-build": "lerna run docz-build --stream"
+    "start-doc": "lerna run start-doc --stream",
+    "build-doc": "lerna run build-doc --stream"
   },
   "devDependencies": {
     "lerna": "^3.15.0"
