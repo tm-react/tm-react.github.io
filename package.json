@@ -1,0 +1,19 @@
+{
+  "name": "react-lerna",
+  "version": "1.0.0",
+  "description": "CRM Project",
+  "main": "index.js",
+  "repository": "https://gitlab.hidayahsmart.solutions/touhid/react-lerna.git",
+  "author": "Touhid Mia <hmtm.cse@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "modules/*"
+  ],
+  "scripts": {
+    "start": "lerna run start --stream"
+  },
+  "devDependencies": {
+    "lerna": "^3.15.0"
+  }
+}
