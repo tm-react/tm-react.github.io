@@ -15,7 +15,9 @@
   },
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack",
+    "docz-start": "docz dev --typescript --port=4444",
+    "docz-build": "docz build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,6 +41,8 @@
     "webpack-async-chunk-names-plugin": "^0.1.1",
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2",
-    "webpack-merge": "^4.2.1"
+    "webpack-merge": "^4.2.1",
+    "docz": "^1.2.0",
+    "docz-theme-default": "^1.2.0"
   }
 }
