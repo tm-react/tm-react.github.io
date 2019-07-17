@@ -11,7 +11,11 @@
     "modules/*"
   ],
   "scripts": {
-    "start": "lerna run start --stream"
+    "start": "lerna run start --stream",
+    "predeploy-gh": "lerna run predeploy-gh --stream",
+    "deploy-gh": "lerna run deploy-gh --stream",
+    "docz-start": "lerna run docz-start --stream",
+    "docz-build": "lerna run docz-build --stream"
   },
   "devDependencies": {
     "lerna": "^3.15.0"
