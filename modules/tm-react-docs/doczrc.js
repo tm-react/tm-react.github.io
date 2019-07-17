@@ -11,7 +11,7 @@ const customCompile = {
     },
     resolve: {
         extensions: ['.tsx', '.ts', '.js', '.jsx']
-    },
+    }
 };
 
 export default {
@@ -22,8 +22,9 @@ export default {
             primary: 'tomato',
         },
     },
-    files: './../../../docs/*.{md,markdown,mdx}',
+    files: './docs/*.{md,markdown,mdx}',
     plugins: [],
+    dest: './../../docs',
     modifyBundlerConfig: config => {
         return merge(config, customCompile);
     }
