@@ -23,6 +23,7 @@ export default {
             primary: 'tomato',
         },
     },
+    base: "/tm-react-doc/",
     files: './docs/mdx/*.{md,markdown,mdx}',
     plugins: [],
     dest: './../../docs',
