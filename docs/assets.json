@@ -1,11 +1,11 @@
 {
   "vendors.js": "/tm-react-doc/static/js/vendors.8c688dbe.js",
-  "vendors.js.map": "/tm-react-doc/static/js/vendors.5ffc63ffaad3b32c3597.js.map",
-  "app.js": "/tm-react-doc/static/js/app.5ffc63ffaad3b32c3597.js",
-  "app.js.map": "/tm-react-doc/static/js/app.5ffc63ffaad3b32c3597.js.map",
+  "vendors.js.map": "/tm-react-doc/static/js/vendors.5c60df11249fa3944ff4.js.map",
+  "app.js": "/tm-react-doc/static/js/app.5c60df11249fa3944ff4.js",
+  "app.js.map": "/tm-react-doc/static/js/app.5c60df11249fa3944ff4.js.map",
   "docs-mdx-bismillah.js": "/tm-react-doc/static/js/docs-mdx-bismillah.b9d8462d.js",
-  "docs-mdx-bismillah.js.map": "/tm-react-doc/static/js/docs-mdx-bismillah.5ffc63ffaad3b32c3597.js.map",
+  "docs-mdx-bismillah.js.map": "/tm-react-doc/static/js/docs-mdx-bismillah.5c60df11249fa3944ff4.js.map",
   "docs-mdx-others.js": "/tm-react-doc/static/js/docs-mdx-others.248a9493.js",
-  "docs-mdx-others.js.map": "/tm-react-doc/static/js/docs-mdx-others.5ffc63ffaad3b32c3597.js.map",
+  "docs-mdx-others.js.map": "/tm-react-doc/static/js/docs-mdx-others.5c60df11249fa3944ff4.js.map",
   "index.html": "/tm-react-doc/index.html"
 }
