@@ -15,6 +15,7 @@ const customCompile = {
 };
 
 export default {
+    public: './docs/assets',
     title: 'React MUI UI',
     description: 'This is React Material UI, UI Projects',
     themeConfig: {
@@ -22,7 +23,7 @@ export default {
             primary: 'tomato',
         },
     },
-    files: './docs/*.{md,markdown,mdx}',
+    files: './docs/mdx/*.{md,markdown,mdx}',
     plugins: [],
     dest: './../../docs',
     modifyBundlerConfig: config => {
