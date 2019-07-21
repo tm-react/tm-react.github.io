@@ -29,5 +29,31 @@ export default {
     dest: './../../docs',
     modifyBundlerConfig: config => {
         return merge(config, customCompile);
-    }
+    },
+    menu: [
+        "Bismillah",
+        {
+            name: 'TM React',
+            menu: [
+                'Layout',
+                'Layout Renderer',
+
+                'Page',
+                'Page Manager',
+                'React Component',
+                'TR Component',
+
+                'URL Mapping',
+
+                'App Config',
+                'Before Render View',
+                'Page Not Found',
+                'Suspense Loader',
+
+                'Browser Storage',
+                'Axios',
+                'Util',
+            ]
+        }
+    ]
 }
