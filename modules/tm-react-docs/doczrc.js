@@ -16,7 +16,7 @@ const customCompile = {
 
 export default {
     public: './docs/assets',
-    title: 'React MUI UI',
+    title: 'TM React',
     description: 'This is React Material UI, UI Projects',
     themeConfig: {
         colors: {
@@ -24,7 +24,7 @@ export default {
         },
     },
     base: "/tm-react-doc/",
-    files: './docs/mdx/*.{md,markdown,mdx}',
+    files: '**/*.{md,markdown,mdx}',
     plugins: [],
     dest: './../../docs',
     modifyBundlerConfig: config => {
