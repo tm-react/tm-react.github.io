@@ -16,7 +16,7 @@
     "typescript": "3.5.3"
   },
   "scripts": {
-    "start": "webpack-dev-server",
+    "start-app": "webpack-dev-server",
     "build": "webpack",
     "start-doc": "docz dev --typescript --port=4444",
     "build-doc": "docz build",

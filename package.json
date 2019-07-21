@@ -11,7 +11,7 @@
     "modules/*"
   ],
   "scripts": {
-    "start": "lerna run start --stream",
+    "start-app": "lerna run start-app --stream",
     "predeploy-gh": "lerna run predeploy-gh --stream",
     "deploy-gh": "lerna run deploy-gh --stream",
     "start-doc": "lerna run start-doc --stream",
