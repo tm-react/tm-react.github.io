@@ -11,6 +11,9 @@ git clone https://github.com/hmtmcse/tm-react.git
 echo "Cloning React MUI UI Project From GitHub";
 git clone https://github.com/hmtmcse/react-mui-ui.git
 
+echo "Cloning TM Node Console Project From GitHub";
+git clone https://github.com/hmtmcse/tm-node-console.git
+
 cd ..
 echo "Installing Yarn";
 yarn install
