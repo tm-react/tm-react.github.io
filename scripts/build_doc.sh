@@ -5,6 +5,8 @@ echo "-------------------------------------------------------------"
 cd ..
 
 yarn build-doc
+cp docs/index.html docs/404.html
+echo -e "---\npermalink: /404.html\n---"
 git add docs
 git commit -m "Updated at `date '+%H:%M:%S %A %d-%B, %Y'`"
 git push --all
